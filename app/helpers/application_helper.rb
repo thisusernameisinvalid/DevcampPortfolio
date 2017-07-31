@@ -16,4 +16,8 @@ module ApplicationHelper
      end 
   end
 
+
+  def copyright
+    InvalidViewTool::Renderer.copyright 'thisusernameisinvalid', 'theres a snake in my boot'
+  end
 end
