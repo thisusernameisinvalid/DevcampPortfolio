@@ -1,12 +1,7 @@
-GIT
-  remote: https://github.com/thisusernameisinvalid/InvalidViewTool
-  revision: 3ae0c4c8bd002f1826a1c1b7f83b002d8916c557
-  specs:
-    InvalidViewTool (0.2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
+    InvalidViewTool (0.2.0)
     actioncable (5.0.5)
       actionpack (= 5.0.5)
       nio4r (>= 1.2, < 3.0)
@@ -193,7 +188,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  InvalidViewTool!
+  InvalidViewTool (~> 0.2.0)
   bootstrap (~> 4.0.0.alpha6)
   byebug
   coffee-rails (~> 4.2)
